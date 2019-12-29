@@ -1,6 +1,6 @@
 # require modules here
 require 'yaml'
-
+require 'pry'
 def load_library (file_path)
 load_library = YAML.load_file(file_path)
 meaning = {"get_meaning" => {}, "get_emoticon"=> {}}
